@@ -1,0 +1,23 @@
+v30 verification
+
+Build memory:
+FLASH1 552665 B / 992 KB = 54.41%
+RAM 109448 B / 192 KB = 55.67%
+ELF text/data/bss: 545577 / 7612 / 101832
+
+RX/ELRS verification:
+- EXPRESSLRS present
+- RX_EXPRESSLRS_SPI present
+- rx_spi_protocol present
+- rx_spi_bus present
+- expresslrs_uid CLI setting present
+- craft_name LionBee present
+
+VTX recovery:
+- PASS: no LionBee VTX recovery status string
+- PASS: no LionBee VTX recovery symbol
+
+ELRS privacy:
+- firmware default UID is 0,0,0,0,0,0
+- previous runtime/personal UID byte sequence: absent
+- no user bind phrase marker found
